@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn0.iconfinder.com/data/icons/home-screen-apps-1/24/user_interface_website_application_theme_brush_paint-64.png">
+  </head>
+  <body>
+    <header>
+      <h1>Paint App</h1>
+      <button id="clear-btn">Clear</button>
+    </header>
+    <canvas id="canvas" width="700" height="500"></canvas>
+    <div class="brush-options">
+      <div class="brush-option pencil"></div>
+      <div class="brush-option pen"></div>
+      <div class="brush-option paint-brush"></div>
+      <div class="brush-option spray-can"></div>
+
+    </div>
+    <footer>
+      <button id="undo-btn" disabled>Undo</button>
+      <button id="save-btn">Save</button>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
